@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="Andrés Gil Vicente, Mathematical Engineering and AI, ICAI Universidad Pontificia Comillas, Madrid">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1b2a"/>
+      <stop offset="1" stop-color="#14304d"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4cc9f0"/>
+      <stop offset="1" stop-color="#7ee0b5"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="320" fill="url(#bg)"/>
+
+  <!-- Level sets of a loss surface, centred on the minimum -->
+  <g fill="none" stroke="#4cc9f0" stroke-opacity="0.22" stroke-width="1.5" transform="rotate(-18 1020 175)">
+    <ellipse cx="1020" cy="175" rx="40" ry="22"/>
+    <ellipse cx="1020" cy="175" rx="85" ry="48"/>
+    <ellipse cx="1020" cy="175" rx="135" ry="76"/>
+    <ellipse cx="1020" cy="175" rx="190" ry="108"/>
+    <ellipse cx="1020" cy="175" rx="250" ry="142"/>
+    <ellipse cx="1020" cy="175" rx="315" ry="178"/>
+  </g>
+
+  <!-- Gradient descent path converging to the minimum -->
+  <polyline points="800,52 862,128 912,100 950,160 985,138 1008,172 1020,165 1020,175"
+            fill="none" stroke="url(#accent)" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <g fill="#7ee0b5">
+    <circle cx="800" cy="52" r="5"/>
+    <circle cx="862" cy="128" r="4.5"/>
+    <circle cx="912" cy="100" r="4"/>
+    <circle cx="950" cy="160" r="3.5"/>
+    <circle cx="985" cy="138" r="3"/>
+    <circle cx="1008" cy="172" r="2.5"/>
+  </g>
+  <circle cx="1020" cy="175" r="7" fill="#ffffff"/>
+
+  <!-- Text -->
+  <g font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+    <text x="80" y="150" font-size="60" font-weight="700" fill="#ffffff">Andrés Gil Vicente</text>
+    <text x="80" y="218" font-size="24" fill="#cfe3f5">Mathematical Engineering and AI</text>
+    <text x="80" y="252" font-size="20" fill="#8fb0cc">ICAI, Universidad Pontificia Comillas · Madrid</text>
+  </g>
+</svg>
